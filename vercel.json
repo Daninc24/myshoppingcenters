@@ -9,5 +9,10 @@
       "source": "/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "functions": {
+    "frontend/dist/**/*.html": {
+      "maxDuration": 10
+    }
+  }
 } 
