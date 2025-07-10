@@ -45,6 +45,7 @@ Built with a React frontend and a Node.js/Express backend.
 
 ### 1. Clone the repository
 
+
 ```sh
 git clone https://github.com/Daninc24/myshoppingcenter.git
 cd myshoppingcenter
