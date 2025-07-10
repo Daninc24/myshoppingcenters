@@ -9,6 +9,7 @@ Built with a React frontend and a Node.js/Express backend.
 
 ## Features
 
+
 - **User Authentication** (register, login, protected/admin routes)
 - **Product Catalog** with detailed product pages
 - **Shopping Cart** and **Checkout** with Stripe payment integration
