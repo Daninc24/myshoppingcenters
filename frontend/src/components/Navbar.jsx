@@ -20,7 +20,7 @@ const Navbar = () => {
   useEffect(() => {
     if (!user) return;
     if (socketRef.current) return;
-    const socket = io(import.meta.env.VITE_API_URL?.replace('/api', '') || 'http://localhost:5000', {
+    const socket = io(import.meta.env.VITE_API_URL?.replace('/api', '') || 'https://myshoppingcenters.onrender.com', {
       withCredentials: true,
       transports: ['websocket'],
     });

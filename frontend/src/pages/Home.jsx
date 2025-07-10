@@ -21,7 +21,7 @@ import { Helmet } from 'react-helmet';
 const getAdvertImageUrl = (image) => {
   if (!image) return '';
   if (image.startsWith('/uploads')) {
-    return `http://localhost:5000${image}`;
+    return `https://myshoppingcenters.onrender.com${image}`;
   }
   return image;
 };
