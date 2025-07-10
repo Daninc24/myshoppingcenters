@@ -21,6 +21,7 @@ Built with a React frontend and a Node.js/Express backend.
 - **Responsive UI** with Tailwind CSS
 - **Image Uploads** for products, events, and user profiles
 
+
 ---
 
 ## Tech Stack
